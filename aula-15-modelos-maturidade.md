@@ -49,9 +49,3 @@ O processo apresenta algumas práticas organizadas, como uso de ferramentas, ver
 | Criar rastreabilidade entre requisitos e código | Facilita manutenção e evolução                |
 | Adotar code review obrigatório                  | Redução de erros e aumento da qualidade       |
 | Implementar CI/CD                               | Automação e maior confiabilidade nas entregas |
-
----
-
-## ✅ Conclusão
-
-O processo atual apresenta características de nível gerenciado, mas ainda carece de maior padronização e controle. A adoção das melhorias propostas permitirá evoluir para níveis mais altos de maturidade, aumentando a qualidade do processo e, consequentemente, do produto final.
