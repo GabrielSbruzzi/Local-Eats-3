@@ -68,9 +68,8 @@ jobs:
 
 ---
 
-# 📝 5. `aula-17-integracao-continua-qualidade.md` (ENTREGA)
+# 📝 5. `aula-17-integracao-continua-qualidade.md`
 
-Aqui vai um modelo já no padrão do professor 👇
 
 ````md
 # 🧪 PBL 12 — Integração Contínua
@@ -107,10 +106,6 @@ pbl-12-qualidade-ci/login.py
 | Tipo de teste | Unitário |
 | Objetivo | Validar comportamento do login |
 | Link | https://github.com/SEU-USUARIO/pbl-12-qualidade-ci/blob/main/tests/test_login.py |
-
-### Código:
-```python
-# cole aqui o teste
 ````
 
 ---
