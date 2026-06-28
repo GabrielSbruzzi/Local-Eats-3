@@ -1,6 +1,0 @@
-- name: DEBUG estrutura
-  run: |
-    echo "---- RAIZ ----"
-    ls
-    echo "---- COMPLETO ----"
-    ls -R
