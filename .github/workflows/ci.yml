@@ -1,26 +1,27 @@
-name: CI Pipeline
+name: Quality Pipeline
 
 on:
   push:
-    branches: [ "main" ]
-  pull_request:
-    branches: [ "main" ]
+    branches:
+      - main
 
 jobs:
-  build:
+  tests:
     runs-on: ubuntu-latest
 
     steps:
-      - name: 📥 Baixar código
+      - name: Checkout do código
         uses: actions/checkout@v3
 
-      - name: 🟢 Instalar Node.js
-        uses: actions/setup-node@v3
+      - name: Configurar Python
+        uses: actions/setup-python@v4
         with:
-          node-version: '18'
+          python-version: '3.10'
 
-      - name: 📦 Instalar dependências
-        run: npm install
+      - name: Instalar dependências
+        run: |
+          pip install -r requirements.txt
 
-      - name: 🧪 Rodar testes
-        run: npm test
+      - name: Executar testes
+        run: |
+          pytest
