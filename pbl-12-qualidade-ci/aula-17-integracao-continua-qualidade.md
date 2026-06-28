@@ -1,8 +1,3 @@
-Boa — agora você chegou na parte mais importante 🔥
-Vou te entregar **EXATAMENTE o que colocar dentro de cada arquivo**, tudo pronto pra copiar e colar.
-
----
-
 # 📄 1. `login.py` (código)
 
 ```python
